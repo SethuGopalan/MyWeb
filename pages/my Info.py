@@ -7,14 +7,13 @@ import dash
 from dash import Input, Output, dash_table
 import numpy as np
 import pandas as pd
-from pytz import country_names
+
 import requests
 import time
 import datetime
 
 import dash_bootstrap_components as dbc
-import dash_defer_js_import as dji
-from dash_extensions import DeferScript
+
 from dash_iconify import DashIconify
 
 from dash_labs.plugins.pages import register_page
