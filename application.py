@@ -1,5 +1,5 @@
-import dash
-from dash import html,dcc
+import dash 
+from dash import html,dcc,Dash
 import dash_labs as dl
 import dash_bootstrap_components as dbc
 import dash_auth
@@ -7,7 +7,7 @@ from dash_iconify import DashIconify
 
 
 
-application = dash.Dash(__name__, plugins=[dl.plugins.pages],
+application = Dash(__name__, plugins=[dl.plugins.pages],
                 external_stylesheets=[dbc.themes.SLATE])
                 
 # app.layout = html.Div([html.Script(**{"data-url": "https://platform.linkedin.com/badges/js/profile.js"}, type="IN/Share")])
@@ -56,4 +56,4 @@ application.layout = dbc.Container(
     fluid=True,
 )
 if __name__ == "__main__":
-    application.run_server(debug=True)
+    application.run(debug=True,port=8000)
