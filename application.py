@@ -7,7 +7,7 @@ from dash_iconify import DashIconify
 
 
 
-app = dash.Dash(__name__, plugins=[dl.plugins.pages],
+application = dash.Dash(__name__, plugins=[dl.plugins.pages],
                 external_stylesheets=[dbc.themes.SLATE])
                 
 # app.layout = html.Div([html.Script(**{"data-url": "https://platform.linkedin.com/badges/js/profile.js"}, type="IN/Share")])
@@ -50,7 +50,7 @@ navbar = dbc.NavbarSimple(
 )
 
 
-app.layout = dbc.Container(
+application.layout = dbc.Container(
 
     [navbar, dl.plugins.page_container],
     fluid=True,
