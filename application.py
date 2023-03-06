@@ -9,6 +9,7 @@ from dash_iconify import DashIconify
 
 application = Dash(__name__, plugins=[dl.plugins.pages],
                 external_stylesheets=[dbc.themes.SLATE])
+server=application.server
                 
 # app.layout = html.Div([html.Script(**{"data-url": "https://platform.linkedin.com/badges/js/profile.js"}, type="IN/Share")])
 
