@@ -2,9 +2,10 @@ from numpy import equal, isin
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.offline import plot
-from dash import Dash, html, dcc, callback
 import dash
-from dash import Input, Output, dash_table
+from dash import Dash, html, dcc, callback,dash_table
+
+
 import numpy as np
 import pandas as pd
 
@@ -103,7 +104,8 @@ layout=dbc.Container([
     
     html.P("Hello! My name is Sethu, and I enjoy working with technology and creating things related to technology software and data."
            'My interest in technology started with making computers, Building servers, databases and networks, cloud services.'
-            "For the last few years, I have been working on creating a web application with python, statistics, and data."),
+            "For the last few years, I have been working on creating a web application with python, statistics, and data.",style={
+                 'fontSize': 16, 'font-family': 'cursive',} ),
 
     
     html.P("Here are a few technologies I’ve been working with recently:"),
