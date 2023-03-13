@@ -55,7 +55,7 @@ layout=dbc.Container([
     # html.Br(),
     
     
-    html.H4("Covid Data Vuialization with Live data with dash plotly and python",style={'textAlign': 'left','fontSize': 18,"margin-left": "24px",'font-family': 'cursive'}),
+    html.H4("Covid Data Vuialization with Live data with dash plotly and python",style={'textAlign': 'left','fontSize': 16,"margin-left": "24px",'font-family': 'cursive'}),
     
     
     dbc.Button("find this code here",outline=True,style={
@@ -138,7 +138,7 @@ layout=dbc.Container([
     # html.Br(),
     
     
-    html.H4("ChatBot application with dash and python  ",style={'textAlign': 'left','fontSize': 18,"margin-left": "24px",'font-family': 'cursive'}),
+    html.H4("ChatBot application with dash and python  ",style={'textAlign': 'left','fontSize': 16,"margin-left": "24px",'font-family': 'cursive'}),
     
     
     dbc.Button("find this code here",outline=True,style={
