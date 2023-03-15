@@ -84,7 +84,7 @@ layout=dbc.Container([
     
     html.P("Hello! My name is Sethu, and I enjoy working with technology and creating things related to technology software and data."
            'My interest in technology started with making computers, Building servers, databases and networks, cloud services.'
-            "For the last few years, I have been working on creating a web application with python, statistics, and data.",style={
+            "For the last few years, I have been working on creating  web applications with python, statistics, and data.",style={
                  'fontSize': 16, 'font-family': 'cursive',} ),
 
     
