@@ -142,7 +142,7 @@ layout=dbc.Container([
     
     
     dbc.Button("find this code here",outline=True,style={
-                'color': 'yellow', 'fontSize': 16,'font-family': 'cursive',"margin-left": "30px"},href="https://github.com/SethuGopalan/covid_multi_page_app")
+                'color': 'yellow', 'fontSize': 16,'font-family': 'cursive',"margin-left": "30px"},href="hhttps://github.com/SethuGopalan/LizaChatbot")
     ]),
     
     
