@@ -163,7 +163,7 @@ dbc.Col([
     # html.Br(),
     
     
-    html.H4("Covid Data Vuialization with Live data with dash plotly and python",style={'textAlign': 'left','fontSize': 18,"margin-left": "24px",'font-family': 'cursive'}),
+    html.H4("World population Data Vuialization  with dash plotly ,CSS,HTML and python",style={'textAlign': 'left','fontSize': 18,"margin-left": "24px",'font-family': 'cursive'}),
     
     
     dbc.Button("find this code here",outline=True,style={
@@ -183,18 +183,9 @@ dbc.Col([
     dbc.Carousel(
     
         items=[
-            {"key": "1", "src": "/assets/Project1/Pic1.png"},
-            {"key": "2", "src": "/assets/Project1/Pic2.png"},
-            {"key": "3", "src": "/assets/Project1/Pic3.png"},
-            {"key": "4", "src": "/assets/Project1/Pic4.png"},
-            {"key": "5", "src": "/assets/Project1/Pic5.png"},
-            {"key": "6", "src": "/assets/Project1/Pic6.png"},
-            {"key": "7", "src": "/assets/Project1/Pic7.png"},
-            {"key": "8", "src": "/assets/Project1/Pic8.png"},
-            {"key": "9", "src": "/assets/Project1/Pic9.png"},
-            {"key": "10", "src": "/assets/Project1/Pic10.png"},
-            {"key": "11", "src": "/assets/Project1/Pic11.png"},
-            {"key": "12", "src": "/assets/Project1/Pic12.png"},
+            {"key": "1", "src": "assets\Project4\Pic1.png"},
+            {"key": "2", "src": "assets\Project4\pic2.png"},
+            
         ],
         controls=True,
         indicators=True,
