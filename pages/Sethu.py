@@ -19,7 +19,7 @@ from dash_iconify import DashIconify
 
 from dash_labs.plugins.pages import register_page
 My_list=["Python","Dash","Pandas","Numpy","Flask","Reactjs"]
-Tech_List=["AWS","Azure","SQL","Selenium","shell script"]
+Tech_List=["HTML","CSS","AWS","Azure","SQL","Selenium"]
 
 
 
