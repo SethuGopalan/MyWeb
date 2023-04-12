@@ -49,15 +49,15 @@ layout=dbc.Container([
                 'color': 'yellow', 'fontSize': 20, 'font-family': 'var(--font-mono)'}),
     html.H1("Sethu Gopalan.",style={
                 'color': 'gray', 'fontSize': 62, 'font-family': 'Sans-serif'}),
-    html.H1("I build web application with data visualization.",style={
+    html.H1("I build web applications with data visualization.",style={
                 'color': 'gray', 'fontSize': 52, 'font-family': 'Sans-serif'}),
     html.Br(),
     html.Br(),
     html.Br(),
-    html.P("I am a software engineer specializing in building web application on data visualization",style={
+    html.P("I am a software engineer specializing in building web applications for data visualization",style={
                  'fontSize': 16, 'font-family': 'cursive',} ),
     html.P("with python ,dash and plotly."
-            " Currently, I’m focused on building application with AI and ML ",style={
+            " Currently, I’m focused on building applications with AI and ML ",style={
                  'fontSize': 16, 'font-family': 'cursive'} ),
     
     
@@ -82,9 +82,9 @@ layout=dbc.Container([
     html.Br(),
     html.Div([
     
-    html.P("Hello! My name is Sethu, and I enjoy working with technology and creating things related to technology software and data."
+    html.P("Hello! My name is Sethu, and I enjoy working with technology and creating things related to technology,software and data."
            'My interest in technology started with making computers, Building servers, databases and networks, cloud services.'
-            "For the last few years, I have been working on creating  web applications with python, statistics, and data.",style={
+            "For the last few years, I have been working on creating  web applications with Python, statistics, and data.",style={
                  'fontSize': 16, 'font-family': 'cursive',} ),
 
     
@@ -101,6 +101,8 @@ layout=dbc.Container([
     ],width={'size': 7, 'offset': 0}),
    
     dbc.Col([html.Div([dbc.CardImg(src="assets\mypic.jpeg",style={"width": "18rem",'border': '5px solid yellow',"border-radius": "50%" },)])],width={'size': 2, 'offset': 0}),
+    # dbc.Col([html.Div([html.P(style={"margin-left": "100px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
+    dbc.Col([html.Div([dbc.Button("My Articles",href="http://127.0.0.1:8000/myarticles",style={"margin-left": "60px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
     
     
     
