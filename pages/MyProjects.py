@@ -1,7 +1,7 @@
-from numpy import equal, isin
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.offline import plot
+
+
+
+
 from dash import Dash, html, dcc, callback
 import dash
 from dash import Input, Output, dash_table
