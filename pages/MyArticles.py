@@ -11,7 +11,7 @@ import pandas as pd
 import requests
 import time
 import datetime
-import pdfkit
+# import pdfkit
 
 import dash_bootstrap_components as dbc
 
