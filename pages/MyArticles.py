@@ -106,6 +106,7 @@ layout=dbc.Container([
 )
 
 def toggle_modal(n1, n2, is_open):
+        # sourcery skip: assign-if-exp, reintroduce-else
         if n1 or n2:
 
             return not is_open
