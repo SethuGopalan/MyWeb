@@ -1,7 +1,7 @@
-from numpy import equal, isin
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.offline import plot
+
+
+
+
 import dash
 from dash import Dash, html, dcc, callback,dash_table
 
@@ -102,7 +102,7 @@ layout=dbc.Container([
    
     dbc.Col([html.Div([dbc.CardImg(src="assets\mypic.jpeg",style={"width": "18rem",'border': '5px solid yellow',"border-radius": "50%" },)])],width={'size': 2, 'offset': 0}),
     # dbc.Col([html.Div([html.P(style={"margin-left": "100px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
-    dbc.Col([html.Div([dbc.Button("My Articles",href="http://127.0.0.1:8000/myarticles",style={"margin-left": "60px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
+    dbc.Col([html.Div([dbc.Button("My Articles",href="http://www.sethugopalanportfolio.com/myarticles",style={"margin-left": "60px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
     
     
     
