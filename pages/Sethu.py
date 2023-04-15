@@ -120,15 +120,7 @@ layout=dbc.Container([
     
     ]),
     
-    # dbc.Col([
     
-    # dmc.Footer( height=60,
-    # fixed=True,
-    # children=[dmc.Text("Company Logo",align="right")],
-    # style={"backgroundColor": "#3a3f44"},
-    # withBorder=False),
-    
-    # ])
       
                 
     
