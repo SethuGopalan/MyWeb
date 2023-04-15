@@ -1,7 +1,4 @@
-from numpy import equal, isin
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.offline import plot
+
 from dash import Dash, html, dcc, callback
 import dash
 from dash import Input, Output, dash_table,State
@@ -45,7 +42,7 @@ layout=dbc.Container([
                     "If you are a developer, wish to make a portfolio website," 
                     "or want to share your knowledge with the world what is the easy and cost effective way? The Answer which I found is Python, dash, and Aws, Walk you through Step By Step",
                     className="card-text",
-                    style={"color":"yellow",'fontSize': 16,'font-family': 'cursive'}
+                    style={"color":"white",'fontSize': 16,'font-family': 'cursive'}
                 ),
                 dbc.Button("Open Article", id="open", n_clicks=0),
                 dbc.Modal(

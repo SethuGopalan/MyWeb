@@ -18,6 +18,7 @@ import dash_bootstrap_components as dbc
 from dash_iconify import DashIconify
 
 from dash_labs.plugins.pages import register_page
+import dash_mantine_components as dmc
 My_list=["Python","Dash","Pandas","Numpy","Flask","Reactjs"]
 Tech_List=["HTML","CSS","AWS","Azure","SQL","Selenium"]
 
@@ -102,13 +103,13 @@ layout=dbc.Container([
    
     dbc.Col([html.Div([dbc.CardImg(src="assets\mypic.jpeg",style={"width": "18rem",'border': '5px solid yellow',"border-radius": "50%" },)])],width={'size': 2, 'offset': 0}),
     # dbc.Col([html.Div([html.P(style={"margin-left": "100px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
-    dbc.Col([html.Div([dbc.Button("My Articles",href="http://www.sethugopalanportfolio.com/myarticles",style={"margin-left": "60px",'color': 'yellow', 'fontSize': 20, 'font-family': 'Serif'})])],width={'size': 2, 'offset': 1}),
+    dbc.Col([html.Div([dbc.Button("My Articles",href="http://www.sethugopalanportfolio.com/myarticles",style={"margin-left": "30px",'color': 'yellow', 'fontSize': 18, 'font-family': 'Cursive',"align": "center",'float': 'none','display': 'flex'})])],width={'size': 2, 'offset': 1}),
     
     
     
     ]),
 
-     html.Br(),
+    #  html.Br(),
 
     dbc.Row([
     
@@ -116,10 +117,18 @@ layout=dbc.Container([
     dbc.Col([html.Div([dbc.Button("Check my projects in Git",size="elg",outline=True,style={
                 'color': 'gray', 'fontSize': 20, 'font-family': 'Serif','border': '2px solid yellow',"margin-left": "15px"},href="https://github.com/SethuGopalan?tab=repositories")]),],width={'size': 3, 'offset': 0}),
    
-   
-    ])
     
-   
+    ]),
+    
+    # dbc.Col([
+    
+    # dmc.Footer( height=60,
+    # fixed=True,
+    # children=[dmc.Text("Company Logo",align="right")],
+    # style={"backgroundColor": "#3a3f44"},
+    # withBorder=False),
+    
+    # ])
       
                 
     
